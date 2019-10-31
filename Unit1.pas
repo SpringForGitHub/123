@@ -30,7 +30,7 @@ var
 begin
   lvList := TStringList.Create;
   try
-    lvList.Add('1');
+    lvList.Add('01');
     lvList.Add('2');
     lvList.Add('3');
     Memo1.Text := lvList.Text;
