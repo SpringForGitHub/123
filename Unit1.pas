@@ -33,6 +33,7 @@ begin
     lvList.Add('1');
     lvList.Add('2');
     lvList.Add('3');
+    lvList.Add('4');
     Memo1.Text := lvList.Text;
   finally
     lvList.Free;
