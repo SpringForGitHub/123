@@ -31,6 +31,7 @@ begin
   lvList := TStringList.Create;
   try
     lvList.Add('1');
+    lvList.Add('2');
     Memo1.Text := lvList.Text;
   finally
     lvList.Free;
